@@ -25,10 +25,10 @@ This project is a Weather Data Collection System designed to demonstrate core De
 * Supports tracking of multiple cities.
 * Timestamps all data for historical tracking and analysis.
 
-# This project requires the following environment variables to function properly:
-
-* OPENWEATHER_API_KEY:  API key from OpenWeather.
-* AWS_BUCKET_NAME: The name of the S3 bucket where weather data will be stored.
+# Environment variables
+This project requires the following environment variables to function properly:
+ * OPENWEATHER_API_KEY:  API key from OpenWeather.
+ * AWS_BUCKET_NAME: The name of the S3 bucket where weather data will be stored.
 
 # Technical Architecture
 

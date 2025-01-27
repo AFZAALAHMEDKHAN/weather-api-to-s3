@@ -24,3 +24,15 @@ This project is a Weather Data Collection System designed to demonstrate core De
 * Automatically stores weather data in AWS S3.
 * Supports tracking of multiple cities.
 * Timestamps all data for historical tracking and analysis.
+
+  ## Technical Architecture
+
+- **Language**: Python 3.x  
+- **Cloud Provider**: AWS (S3)  
+- **External API**: OpenWeather API  
+
+### Dependencies:
+- **boto3**: AWS SDK for Python, used to interact with AWS services (e.g., S3).  
+- **python-dotenv**: For managing environment variables securely.  
+- **requests**: For making HTTP requests to the OpenWeather API.  
+

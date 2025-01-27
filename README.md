@@ -25,6 +25,11 @@ This project is a Weather Data Collection System designed to demonstrate core De
 * Supports tracking of multiple cities.
 * Timestamps all data for historical tracking and analysis.
 
+# This project requires the following environment variables to function properly:
+
+* OPENWEATHER_API_KEY:  API key from OpenWeather.
+* AWS_BUCKET_NAME: The name of the S3 bucket where weather data will be stored.
+
 # Technical Architecture
 
 * Language : Python 3.x  
@@ -34,5 +39,6 @@ This project is a Weather Data Collection System designed to demonstrate core De
 # Dependencies:
 * boto3 : AWS SDK for Python, used to interact with AWS services (e.g., S3).  
 * python-dotenv : For managing environment variables securely.
-* requests : For making HTTP requests to the OpenWeather API.  
+* requests : For making HTTP requests to the OpenWeather API.
+
 

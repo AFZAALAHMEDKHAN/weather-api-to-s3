@@ -1,5 +1,6 @@
 # Weather Data Collection System
-![Screenshot (137)](https://github.com/user-attachments/assets/5001581e-d7a9-41ed-9785-0bed6416027c)
+
+![Screenshot (137)](https://github.com/user-attachments/assets/b4ab58bb-8034-4250-8bca-4ee9ff2dcedd)
 
 # Project Overview
 This project is a Weather Data Collection System designed to demonstrate core DevOps principles by integrating the following:

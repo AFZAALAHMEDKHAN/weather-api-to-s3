@@ -42,3 +42,4 @@ This project requires the following environment variables to function properly:
 * requests : For making HTTP requests to the OpenWeather API.
 
 
+Reference Github repo: https://github.com/ShaeInTheCloud/30days-weather-dashboard.git

@@ -18,7 +18,8 @@ class WeatherDashboard:
     def create_bucket_if_not_exists(self):
         try:
             self.s3.head_bucket(Bucket=self.bucket_name)
-            print(f"Bucket {self.bucket_name} exists")
+            print(f"Bucket {self.bucket_name} already exists")
+            return
         
         except:
             print(f"Creating bucket {self.bucket_name}")
